@@ -2,11 +2,14 @@
 
 
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* General */
+
+
 
 .brand-heading{
     color: #939fb1;
@@ -162,7 +165,7 @@ p{
     background-color: #e7e9f1;
 }
 
-.article-img{
+.article-imgp{
     padding-top: 50px;
     color: #909ca7;
     font-size:25px
