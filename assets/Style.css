@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General */
+
+.brand-heading{
+    color: #939fb1;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: "roboto";
+    padding-bottom: 20px;
+    font-weight: 100;
+    color: #818fa1;
+}
+
+p{
+    padding-bottom: 10px;
+    color: #8f909c;
+}
+
+#home,#Therapy,#articles{
+    background-color: #e7e9f1;
+}
+
+.read-more,a:hover{
+    color: #babac2;
+}
+
+.about-text,#cost h1{
+    color: #61738a;
+}
+
+.home-text,.about-text,.therapy-text,.articles,.cost,.footer-left,.footer-right{
+    padding: 40px 100px;
+}
+
+.button{
+    background-color: #9caab8;
+    border:0px;
+    border-radius:0px;
+    color: #dee6eb;
+}
+
+.button:hover{
+    background-color: #fff;
+}
+
+#about-read-more{
+    display: none;
+}
+
+#therapy-read-more{
+    display: none;
+}
+
+#feature-read-more-1{
+    display: none;
+}
+
+#feature-read-more-2{
+    display: none;
+}
+
+#feature-read-more-3{
+    display: none;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbar-left{
+    background-color: #9ba8bb;
+}
+
+.navbar-right{
+    padding: 50px;
+    background-color: #fff ; 
+}
+
+/* Header */
+
+#home{
+    background-color: #e7e9f1;
+}
+
+.home-text h1{
+    font-size: 80px;
+}
+
+@media(max-width:720px){
+    .home-text h1{
+        font-size: 40px;
+    }
+}
+
+.home-text p{
+    font-size: 20px;
+    max-width: 350px;
+}
+
+/* About */
+
+.about-text h1{
+    font-size: 45px;
+}
+
+/* Therapy */
+
+.therapy-text h1{
+    color: #818fa1;
+}
+
+.therapy-list{
+    list-style-type: square;
+}
+
+.carousel-color{
+    background-color: #fff;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+.blockquote{
+    color: #eae9ec;
+    padding-top: 50px;
+    padding-left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockquotep{
+    text-align: center;
+    padding: 20px;
+    color: #949396;
+}
+
+.caption{
+    color: #e9e8ec;
+}
+
+/* Articles */
+
+#articles{
+    background-color: #e7e9f1;
+}
+
+.relationship-img{
+    overflow: hidden;
+    height:350px;
+    width:100%;
+}
+
+.article-img{
+    padding-top: 50px;
+    color: #909ca7;
+    font-size:25px
+}
+
+/* Cost & Insurance */
+
+.cost h1{
+    font-size: 40px;
+}
+
+/* Footer or Contact */
+
+.footer-left{
+    background-color: #fff;
+}
+
+.work{
+    color: #acb8c7;
+    font-size:25px;
+    font-weight: 200;
+}
+
+.footer-right{
+    background-color: #e7e9f1;
+    padding-bottom: 40px;
+}
+
+.footer{
+    color: #9cafc6;
+}
