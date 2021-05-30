@@ -86,6 +86,10 @@ p{
     .home-text h1{
         font-size: 40px;
     }
+    .navbar-brand{
+        height:60%;
+        width:60%;
+    }
 }
 
 .home-text p{
