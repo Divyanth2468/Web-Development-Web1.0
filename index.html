@@ -18,12 +18,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <header class="">
+    <header class="sticky-top" id="header">
     <nav class="navbar navbar-light bg-light navbar-custom" id="navbar-custom">
-        <a class="navbar-brand" id="navbar-brand" href="#header">
-          Dr.Parker - clinical psychologst
+        <a class="navbar-brand" id="navbar-brand" href="#home">
+          <img src="assets/images/Dr.p-logo.jpg" class="img-fluid brand-image"alt="">
         </a>
-        <button class="navbar-toggler" onclick="navbar()" type="button" data-toggle="collapse" data-target="#navbar-list" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-list" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon icon-color"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-list">
@@ -113,41 +113,45 @@
                         <a href="#" class="read-more">VIEW SERVICES</a>
                     </div>
                   </div>
-                  <div class="col-lg-5 therapy-image"><br><br><br><br><br>
-                    <div id="carouselExampleIndicators" class="carousel slide carousel-color" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
+                  <div class="col-lg-6 therapy-image"><br><br><br>
+                      <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <i class="fas fa-quote-left fa-5x blockquote"></i>
+                            <div class="d-flex justify-content-center">
+                            <img src="assets/images/blockquote-mark-e6e9ec-b.jpg" class="img-fluid" alt="blockquote">
+                            </div>
                             <p class="blockquotep">Dr. Parker has helped me in navigating issues of belonging and identity. Thanks to her now I am able to make good and healthy choices for myself and the relationships I a m in. I am gratefull that I foud her when I did and I highly recomend her</p><br><br><br>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-sm-block">
                                 <h5 class="caption">- Jessica T. -</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <i class="fas fa-quote-left fa-5x blockquote"></i>
+                            <div class="d-flex justify-content-center">
+                              <img src="assets/images/blockquote-mark-e6e9ec-b.jpg" class="img-fluid" alt="blockquote">
+                              </div>
                             <p class="blockquotep">"I have been working with Dr. Parker during past few years. She was extremely helpful in helping me find solutions to various problems I have faced. She has definitely made an impact in my life that i will always cherish"</p><br><br><br>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-sm-block">
                                 <h5 class="caption">- Gabriella S. -</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <i class="fas fa-quote-left fa-5x blockquote"></i>
+                            <div class="d-flex justify-content-center">
+                              <img src="assets/images/blockquote-mark-e6e9ec-b.jpg" class="img-fluid" alt="blockquote">
+                              </div>
                             <p class="blockquotep">"Dr. Park has helped me to overcome a emotional trauma and self-esteem issues her easy to open up and she helped me develope the tools needed to get through a difficult time.I highly recomend her"</p><br><br><br>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-sm-block">
                                 <h5 class="caption">- Norman B. -</h5>
                             </div>
                           </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="sr-only"></span>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="sr-only"></span>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
                         </a>
                       </div>
                   </div>
@@ -196,7 +200,7 @@
           <div class="container-fluid">
               <div class="row">
                   <div class="col-lg-4 footer-left">
-                      <h1 class="brand-heading">Dr. Parker <span class="work">Clinical Psycologist</span></h1>
+                      <img src="assets/images/Dr.-Parker-logo-v2.jpg" class="img-fluid"alt="">
                   </div>
                   <div class="col-lg-8 footer-right">
                       <p><span class="footer">Adress:</span> 3204 Goldcliff Circle, Washington DC 2016</p>
