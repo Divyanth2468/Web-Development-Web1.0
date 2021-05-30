@@ -15,7 +15,7 @@ if($(window).width() < 767)
         $(".slide-section").click(function(){
             var linkHref = $(this).attr("href");
             $("html, body").animate({
-                scrollTop: $(linkHref).offset().top - (headerHeight*6.3)
+                scrollTop: $(linkHref).offset().top - (headerHeight*6.1)
             }, 1000)
         })
     })  
