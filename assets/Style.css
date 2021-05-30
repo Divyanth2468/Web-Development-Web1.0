@@ -9,9 +9,12 @@
 
 /* General */
 
-.brand-image{
-    width:40%;
-}
+/* .navbar-brand {
+    width: 220px;
+    height: 50px;
+    background: url('assets/images/Dr.p-logo.jpg') no-repeat center center;
+    background-size: 150px;
+    } */
 
 h1{
     font-family: "roboto";
@@ -56,7 +59,8 @@ p{
 
 .navbar-brand{
     padding: 20px;
-    font-size: 25px;
+    height: 30%;
+    width:30%;
 }
 
 .navbar-left{
