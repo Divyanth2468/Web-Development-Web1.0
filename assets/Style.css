@@ -9,12 +9,8 @@
 
 /* General */
 
-
-
-.brand-heading{
-    color: #939fb1;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+.brand-image{
+    width:40%;
 }
 
 h1{
@@ -54,26 +50,6 @@ p{
 
 .button:hover{
     background-color: #fff;
-}
-
-#about-read-more{
-    display: none;
-}
-
-#therapy-read-more{
-    display: none;
-}
-
-#feature-read-more-1{
-    display: none;
-}
-
-#feature-read-more-2{
-    display: none;
-}
-
-#feature-read-more-3{
-    display: none;
 }
 
 /* Navbar */
@@ -129,30 +105,34 @@ p{
     list-style-type: square;
 }
 
-.carousel-color{
+#demo{
     background-color: #fff;
+     height: 350px; 
+}
+
+.carousel-indicators .active{
+    background-color: #000;
 }
 
 .carousel-indicators li{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #000;
+    background-color: grey;
 }
 
-.blockquote{
-    color: #eae9ec;
-    padding-top: 50px;
-    padding-left: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#demo img{
+    height: 15%;
+    width: 15%;
+    padding-bottom: 30px;
 }
 
 .blockquotep{
     text-align: center;
-    padding: 20px;
     color: #949396;
+    margin: auto;
+    max-width:600px;
+    padding-bottom: 20px; 
 }
 
 .caption{
