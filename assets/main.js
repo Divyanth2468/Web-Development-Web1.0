@@ -20,3 +20,6 @@ if($(window).width() < 767)
         })
     })  
 }
+function appointment(){
+    alert("Your appointment is booked for this weekend at 5.30PM");
+}
