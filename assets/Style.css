@@ -9,13 +9,6 @@
 
 /* General */
 
-/* .navbar-brand {
-    width: 220px;
-    height: 50px;
-    background: url('assets/images/Dr.p-logo.jpg') no-repeat center center;
-    background-size: 150px;
-    } */
-
 h1{
     font-family: "roboto";
     padding-bottom: 20px;
@@ -69,7 +62,7 @@ p{
 
 .navbar-right{
     padding: 50px;
-    background-color: #fff ; 
+    background-color: #fff ;
 }
 
 /* Header */
@@ -113,9 +106,9 @@ p{
     list-style-type: square;
 }
 
-#demo{
+#carousel-about{
     background-color: #fff;
-     height: 350px; 
+     height: 350px;
 }
 
 .carousel-indicators .active{
@@ -129,9 +122,13 @@ p{
     background-color: grey;
 }
 
-#demo img{
-    height: 15%;
-    width: 15%;
+.blockquote-img{
+  padding-top: 20px;
+}
+
+#carousel-about img{
+    height: 10%;
+    width: 10%;
     padding-bottom: 30px;
 }
 
@@ -140,7 +137,7 @@ p{
     color: #949396;
     margin: auto;
     max-width:600px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .caption{
